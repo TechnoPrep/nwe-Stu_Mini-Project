@@ -6,6 +6,11 @@
 
 /* End Universal Style */
 
+/* Removing Body Margin */
+body{
+    margin: 0;
+}
+
 /* Start Nav Menu Style */
 
 #nav{
