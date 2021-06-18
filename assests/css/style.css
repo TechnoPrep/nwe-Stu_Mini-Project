@@ -11,6 +11,11 @@ body{
     margin: 0;
 }
 
+/* Bonus: Added Cursor to links */
+a{
+    cursor:pointer;
+}
+
 /* Start Nav Menu Style */
 
 #nav{
@@ -167,6 +172,10 @@ input[type=text],input[type=email]{
     font-size: 20px;
 }
 
+ul#social li a{
+    color: white;
+}
+
 ul#social li a:hover{
     color: #05F4B7;
 }
@@ -205,12 +214,11 @@ ul#social li{
 .fa-social::before{
     font-size: 30px; 
     padding-right: 10px;
-    color: white;
 }
 
-.fa-social:hover{
+/* .fa-social:hover{
     color: #05F4B7;
-}
+} */
 
 
 /* End Font Awesome Styles */
