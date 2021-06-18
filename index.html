@@ -34,7 +34,7 @@
                 </li>
                 <li>
                     <i class="fa fa-envelope fa-nav" aria-hidden="true"></i>
-                    <a href="mailto:nathan.ehrlich@gmail.com">Contact</a>
+                    <a href="#jump-to-form">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -67,28 +67,25 @@
         </header>
 
         <section class='form-bg center'>
-            <form class='contact-me' method='POST' action="">
-                <p>
-                    <label for="firstName"> First Name</label>
+            <form id='jump-to-form' class='contact-me' method='POST' action="">
+
                     <div class="form-input">
-                    <input type="text"name="firstName"/>
-                    <input type="submit" name="submit" value="submit"/>
-                    </div>
-                </p>
-            
-                <p>
-                    <label for="lastName"> Last Name</label>
-                    <div class="form-input">
-                    <input type="text"name="lastName"/>
-                    <input type="submit" name="submit" value="submit"/>
-                    </div>
-                </p>    
-            
-                <p>
-                    <label for="email"> Email Address</label>
-                    <div class="form-input">
-                    <input type="email"name="email"/>
-                    <input type="submit" name="submit" value="submit"/>
+                        <p>
+                            <label for="name">Your Name</label>
+                        </p> 
+                        <p>
+                            <input type="text"name="name"/>
+                        </p>
+                        <p>
+                            <label for="email"> Email Address</label>
+                        </p>
+                        <p>
+                            <input type="email"name="email"/>
+                        </p>
+
+                        <p>
+                            <input type="submit" name="submit" value="Submit"/>
+                        </p>
                     </div>
                 <p>
             </form>
