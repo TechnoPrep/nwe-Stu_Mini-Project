@@ -8,12 +8,6 @@
 
 /* Start Nav Menu Style */
 
-nav{
-    border-bottom:#05F4B7;
-    border-width: 10px;
-    border-style: solid;
-}
-
 .nav-menu{
     background-color: #12151F;
     overflow: hidden;
@@ -51,6 +45,7 @@ ul#nav-items li a:hover{
 
 #primary-header{
     border-bottom:#05F4B7;
+    border-top:#05F4B7;
     border-width: 10px;
     border-style: solid;
     line-height: 150px;
