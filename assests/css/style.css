@@ -24,14 +24,14 @@ p{
 
 /* Start Nav Menu Style */
 
-#nav{
+#nav-menu{
     background-color: #12151F;
     top: 0;
     width: 100%;
     overflow: hidden;
 }
 
-#nav ul{
+#nav-menu ul{
     background-color: #371BB1;
     float:right;
     overflow: hidden;
@@ -39,14 +39,14 @@ p{
     margin-right: 15px;
 }
 
-#nav li{
+#nav-menu li{
     list-style: none;
     margin: 5px;
     padding: 15px 30px 15px 15px;
     display: inline-block;
 }
 
-#nav li a{
+#nav-menu li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -54,11 +54,11 @@ p{
     text-align: center;
 }
 
-#nav li a:hover{
+#nav-menu li a:hover{
     color: #05F4B7;
 }
 
-.sticky {
+#sticky {
     position: -webkit-sticky;
 	position: sticky;
 	top: 0;
